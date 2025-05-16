@@ -1,6 +1,6 @@
-# 🔁 Text2Cypher: Natural Language to Cypher Query Generation with Chain-of-Thought Reasoning
+# Reason2Cypher: Enhancing Text2Cypher with Chain-of-Thought Supervision
 
-**Text2Cypher** is a research project focused on translating natural language questions into executable Cypher queries for graph databases like Neo4j. The project leverages large language models (LLMs) and Chain-of-Thought (CoT) reasoning to improve the accuracy, interpretability, and robustness of query generation in structured environments.
+**Reason2Cypher** is a research project that focuses on translating natural language questions into executable Cypher queries for Neo4j graph databases. The project leverages small LLMs and Chain-of-Thought (CoT) reasoning to improve the accuracy, interpretability, and robustness of query generation in structured environments.
 
 ---
 

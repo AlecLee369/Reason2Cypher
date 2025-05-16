@@ -1,0 +1,33 @@
+# Training arguments
+learning_rate: 1e-4
+optim: adamw_8bit
+seed: 3407
+num_train_epochs: 1
+warmup_steps: 5
+warmup_ratio: 0.05
+# 32 for A100 80g r 16
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 2
+max_steps: 10
+logging_steps: 10
+weight_decay: 0.01
+lr_scheduler_type: linear
+# lora adapter output directory
+output_dir: lora_outputs  
+
+
+# lora adapter save directory
+lora_save_dir: lora_adapter
+
+# LoRA arguments
+lora_r: 16
+lora_alpha: 16
+lora_dropout: 0.0
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

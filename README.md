@@ -19,3 +19,8 @@
 
 📊 [Reason2Cypher Dataset](https://huggingface.co/datasets/AlecLee/Reason2Cypher)
 
+## Evaluation
+
+<p align="center">
+  <img src="figures/result.png"/>
+</p>

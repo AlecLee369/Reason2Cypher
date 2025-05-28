@@ -21,7 +21,7 @@
 
 ## Evaluation
 
-Test Set come from [Text2Cypher](https://huggingface.co/datasets/neo4j/text2cypher-2024v1)
+Test Set come from [Text2Cypher](https://huggingface.co/datasets/neo4j/text2cypher-2024v1).
 <p align="center">
   <img src="figures/result.png"/>
 </p>
